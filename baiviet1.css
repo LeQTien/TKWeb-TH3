@@ -1,0 +1,147 @@
+.baiviet {
+    margin: 20px 200px 20px 50px;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+h4, h5 {
+    margin: 10px 100px 20px 50px;
+}
+
+p {
+    margin: 30px 0px 30px 0px;
+}
+
+.baiviet img {
+    height: 300px;
+    width: 500px;
+}
+
+/*begin categories*/
+a {
+    color: #000;
+    text-decoration:dashed;
+}
+.category a:hover {
+    color: #A01616;
+	font-weight: bold;
+}
+
+.category {
+    margin-top: 30px;
+}
+.line {
+	color: #A6A6A6;
+	font-size: 20px;
+	padding-left: 5px;
+}
+hr {
+	width: 300px;
+	height: 2px;
+	background-color: #000;
+}
+.category .line:hover {
+	color: #A01616;
+	font-weight: bold;
+	
+}
+/*end catetories*/
+
+.col-sm {
+    margin-top: 50px;
+    padding-right: 70px;
+}
+
+.col-sm img {
+    height: 200px;
+    width: 350px;
+}
+
+.col-sm a {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.col-sm a:hover {
+    color: #A01616;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .footer .footer-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer .footer-wrapper .left-info {
+      align-items: center;
+    }
+    .footer .footer-wrapper .left-info .web-info {
+      text-align: center;
+    }
+    .footer .footer-wrapper .right-info {
+      margin-top: 12px;
+    }
+    .footer .footer-wrapper .right-info .copyright-info p {
+      text-align: center !important;
+    }
+  }
+  @media (max-width: 760px) {
+    .hidden-lg {
+      display: block;
+    }
+    .hidden-sm {
+      display: none;
+    }
+    .header .wrap-header {
+      padding: 4px 24px 0;
+    }
+    .header .menu ul {
+      height: auto;
+      max-height: 82vh;
+      width: 100vw;
+      position: absolute;
+      top: 52px;
+      left: 0;
+      background-color: #fcfcfc;
+      flex-direction: column;
+    }
+    .header .menu ul > li {
+      width: 100%;
+      text-align: center;
+    }
+    .header .menu ul > li:before {
+      display: none;
+    }
+    .header .menu ul > li > a:has(+ div):before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -20px;
+      transform: translateY(-12%);
+      border: 5px solid;
+      border-color: #04b2f7 transparent transparent transparent;
+    }
+    .header .menu ul > li .subcate {
+      position: relative;
+      top: 0;
+    }
+    .header .menu ul > li .subcate ol {
+      width: 100vw;
+    }
+    .header .menu ul > li .subcate ol li {
+      text-align: center;
+      padding: 0;
+    }
+    .header .menu ul > li .subcate ol li + li {
+      border-top: unset;
+    }
+    .content {
+      padding: 0;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */

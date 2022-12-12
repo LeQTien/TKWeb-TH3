@@ -1,0 +1,77 @@
+.footer {
+    margin-top: 50px;
+}
+h4, h5 {
+    margin: 10px 100px 20px 50px;
+}
+
+.col-sm-8 {
+    padding-right: 200px;
+}
+
+.col-sm-8 img {
+    height: 400px;
+    width: 650px;
+    margin-top: 20px;
+}
+
+.col-sm-8 a {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.col-sm-8 a:hover {
+    color: #A01616;
+}
+/*begin categories*/
+a {
+    color: #000;
+    text-decoration:dashed;
+}
+.category a:hover {
+    color: #A01616;
+	font-weight: bold;
+}
+
+.category {
+    margin-top: 30px;
+}
+.line {
+	color: #A6A6A6;
+	font-size: 20px;
+	padding-left: 5px;
+}
+hr {
+	width: 300px;
+	height: 2px;
+	background-color: #000;
+}
+.category .line:hover {
+	color: #A01616;
+	font-weight: bold;
+	
+}
+/*end catetories*/
+
+.col-sm {
+    margin-top: 50px;
+    padding-right: 70px;
+}
+
+.col-sm img {
+    height: 200px;
+    width: 350px;
+}
+
+.col-sm a {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.col-sm a:hover {
+    color: #A01616;
+}
+
